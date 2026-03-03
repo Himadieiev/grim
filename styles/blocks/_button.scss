@@ -1,0 +1,5 @@
+.button {
+  @include flex-center(true);
+
+  border-radius: 12px;
+}
