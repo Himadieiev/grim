@@ -556,4 +556,42 @@ a[class] {
 .gallery__card-title {
   font-size: 16px;
   font-weight: 400;
+}
+
+.history {
+  padding-block: 60px;
+}
+.history__title {
+  margin-bottom: 40px;
+}
+.history__image {
+  float: right;
+  width: 40%;
+  max-width: 500px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: var(--border);
+}
+@media (max-width: 1023px) {
+  .history__image {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .history__image {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+}
+.history__content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.history p:not(:last-child) {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=styles.css.map */
