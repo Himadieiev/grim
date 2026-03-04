@@ -28,6 +28,10 @@
   }
 
   &__menu {
+    @include mobile {
+      display: none;
+    }
+
     &-list {
       display: flex;
       column-gap: 20px;

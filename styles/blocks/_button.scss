@@ -1,5 +1,6 @@
 .button {
   @include flex-center(true);
 
+  border: none;
   border-radius: 12px;
 }

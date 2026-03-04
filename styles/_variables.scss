@@ -4,12 +4,15 @@
   --color-dark: #0a0a0a;
   --color-dark-medium: #1e1e1e;
   --color-dark-light: #292934;
+  --color-dark-red: #35000a;
 
   --color-pink: #ff2d55;
   --color-yellow: #ffd83b;
   --color-blue: #7eb0f2;
-  --color-gray: #474758;
-  --color-dark-red: #35000a;
+  --color-gray-light: #4f4f5b;
+  --color-gray: #1a2233;
+  --color-gray-dark: #131926;
+  --color-gray-blue: #8c94a8;
 
   --gradient-gray-red: linear-gradient(
     45deg,
@@ -23,7 +26,7 @@
   );
   --gradient-gray: linear-gradient(rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7));
 
-  --border: 1px solid var(--color-accent-gray);
+  --border: 1px solid var(--color-gray-light);
 
   --font-family-base: "Montserrat", sans-serif;
 
