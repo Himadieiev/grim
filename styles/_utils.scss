@@ -16,3 +16,13 @@
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
 }
+
+.visible-mobile {
+  @include mobile-above {
+    display: none !important;
+  }
+}
+
+.is-lock {
+  overflow: hidden;
+}

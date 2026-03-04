@@ -1,0 +1,51 @@
+.ticket-modal {
+  max-width: 340px;
+  width: 100%;
+  padding: 0;
+  border: var(--border);
+  border-radius: 12px;
+  color: var(--color-light);
+  background-color: var(--color-gray-light);
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(1px);
+  }
+
+  &__inner {
+    padding: 20px;
+    position: relative;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  &__form {
+    grid-template-columns: 1fr;
+  }
+
+  &__input {
+    width: 100%;
+  }
+
+  &__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  &__button {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+}

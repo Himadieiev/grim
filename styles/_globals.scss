@@ -7,6 +7,10 @@ body {
   background-color: var(--color-dark);
 }
 
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
 main {
   flex-grow: 1;
 }

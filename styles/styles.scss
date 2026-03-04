@@ -1,4 +1,5 @@
 @import "normalize", "fonts", "mixins", "media", "variables", "utils", "globals";
 
-@import "blocks/button", "blocks/header", "blocks/hero", "blocks/concerts", "blocks/gallery",
-  "blocks/history", "blocks/contacts", "blocks/field", "blocks/footer";
+@import "blocks/button", "blocks/burger-button", "blocks/header", "blocks/cross-button",
+  "blocks/mobile-overlay", "blocks/hero", "blocks/concerts", "blocks/gallery", "blocks/history",
+  "blocks/contacts", "blocks/field", "blocks/footer", "blocks/ticket-modal";
