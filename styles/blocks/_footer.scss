@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-block: 50px;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+    @include mobile {
+      align-items: center;
+    }
+  }
+
+  &__rights {
+    color: var(--color-gray-blue);
+  }
+
+  &__contacts-list {
+    display: flex;
+    column-gap: 15px;
+  }
+
+  &__contacts-item {
+    @include hover {
+      color: var(--color-gray-blue);
+    }
+  }
+
+  &__soc1als {
+    &-list {
+      display: flex;
+      column-gap: 15px;
+    }
+
+    &-item {
+      color: var(--color-gray-blue);
+
+      @include hover {
+        color: var(--color-light);
+      }
+    }
+  }
+}
