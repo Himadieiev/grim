@@ -513,4 +513,47 @@ a[class] {
     color: var(--color-dark);
     background-color: var(--color-yellow);
   }
+}
+
+.gallery {
+  padding-block: 60px;
+}
+.gallery__title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.gallery__list {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  padding-inline: 35px;
+}
+@media (max-width: 767px) {
+  .gallery__list {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+}
+.gallery__card {
+  border: var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .gallery__card {
+    max-width: 300px;
+  }
+}
+.gallery__card-body {
+  padding: 10px;
+  background-color: var(--color-gray);
+}
+.gallery__image {
+  width: 100%;
+}
+.gallery__card-title {
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */
