@@ -560,6 +560,7 @@ a[class] {
 
 .history {
   padding-block: 60px;
+  background: var(--gradient-gray-red);
 }
 .history__title {
   margin-bottom: 40px;
