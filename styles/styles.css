@@ -511,7 +511,7 @@ a[class] {
   height: 600px;
   padding-top: 140px;
   padding-bottom: 120px;
-  background: var(--gradient-gray), url("../../images/hero.jpg") center/cover no-repeat;
+  background: var(--gradient-gray), url("../images/hero.jpg") center/cover no-repeat;
 }
 @media (max-width: 1440px) {
   .hero {
