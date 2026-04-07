@@ -4,7 +4,7 @@
   padding-bottom: 120px;
   background:
     var(--gradient-gray),
-    url("../../images/hero.jpg") center / cover no-repeat;
+    url("../images/hero.jpg") center / cover no-repeat;
 
   @include desktop {
     padding-block: 100px;
